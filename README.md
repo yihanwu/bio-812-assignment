@@ -29,6 +29,7 @@ git checkout master
 Pros 
 - Useful for backing up code
 - keep track of what was modified and I can revert if code doesn't work
+
 Cons
 - takes time to learn Git
 - Git will not back up extremely large files easily

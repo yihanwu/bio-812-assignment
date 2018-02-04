@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+# Biol-812 Assignment
 
-You can use the [editor on GitHub](https://github.com/yihanwu/bio-8123-assignment/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+1. When should you use Git for a project?
+- When you want to keep track of your changes in code
+- For collaboration with different people
+- To be able to revert to older versions
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+2. What kind of files/info should be saved in a Git repository? What types of files/info should not be included in a Git repo?
+- Included 
+    - code scripts
+    - text files
+- Not included
+    - large files
+    - private information
 
-### Markdown
+3. What are the commands to undo a commit?
+``` 
+git revert [commitID]
+``` 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+4. One of your repositories is in a “detached HEAD” state. How do you fix this?
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+git checkout master
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+5. Your boss has no idea what Git is or why you are using it. Explain the pros / cons of using Git for your research project. Explain the pros / cons of hosting your project in a public (or private) repository on Github/Bitbucket/Gitlab/etc.
 
-### Jekyll Themes
+Pros 
+- Useful for backing up code
+- keep track of what was modified and I can revert if code doesn't work
+Cons
+- takes time to learn Git
+- Git will not back up extremely large files easily
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yihanwu/bio-8123-assignment/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Why host on Github
+- another place to keep back up
+- can collaborate with other people
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Why not hot on Github
+- repository is public unless made private 
